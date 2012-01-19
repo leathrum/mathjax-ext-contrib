@@ -1,16 +1,17 @@
-<h1><u>Extension</u>: counters</h1>
-<p>
+Extension: counters
+
 Implements LaTeX counters for MathJax.
-<h3>Configuration:</h3>
-<pre>
+
+Configuration:
+
 MathJax.Hub.Config({
   TeX: {
     extensions: ["http://cs.jsu.edu/mathjax-ext/contrib/counters/counters.js"]
   }
 });
-</pre>
-<h3>Usage:</h3>
-<pre>
+
+Usage:
+
 \newcounter{name}[depend]
 \setcounter{name}{number}
 \addtocounter{name}{number}
@@ -21,26 +22,12 @@ MathJax.Hub.Config({
 \Roman{name}
 \value{name}
 
-</pre>
-See <a href="sample.html">sample</a>.
-</p>
-<p>
-The <code>\value</code> macro is <em>only</em> valid in the 
-<code>number</code>
-argument for <code>\setcounter</code> and <code>\addtocounter</code>.
+See sample.
 
-</p>
-<p>
-The extension does <em>not</em> implement the 
-<code>\fnsymbol</code> or <code>\usecounter</code> macros,
-which only make sense in the context of LaTeX features which
-MathJax does not support.  Similarly, the extension does not
-implement the standard LaTeX counters, such as <code>page</code>,
-<code>section</code>, <code>figure</code>, and <code>enumi</code>.
+The \value macro is only valid in the number argument for \setcounter and \addtocounter.
 
-</p>
-<h3>History</h3>
-<ul>
-<li><em>20 Nov 2011 -- Tom Leathrum</em></li>
-</ul>
+The extension does not implement the \fnsymbol or \usecounter macros, which only make sense in the context of LaTeX features which MathJax does not support. Similarly, the extension does not implement the standard LaTeX counters, such as page, section, figure, and enumi.
+History
+
+    20 Nov 2011 -- Tom Leathrum
 
