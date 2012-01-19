@@ -1,0 +1,46 @@
+<h1><u>Extension</u>: counters</h1>
+<p>
+Implements LaTeX counters for MathJax.
+<h3>Configuration:</h3>
+<pre>
+MathJax.Hub.Config({
+  TeX: {
+    extensions: ["http://cs.jsu.edu/mathjax-ext/contrib/counters/counters.js"]
+  }
+});
+</pre>
+<h3>Usage:</h3>
+<pre>
+\newcounter{name}[depend]
+\setcounter{name}{number}
+\addtocounter{name}{number}
+\arabic{name}
+\alph{name}
+\Alph{name}
+\roman{name}
+\Roman{name}
+\value{name}
+
+</pre>
+See <a href="sample.html">sample</a>.
+</p>
+<p>
+The <code>\value</code> macro is <em>only</em> valid in the 
+<code>number</code>
+argument for <code>\setcounter</code> and <code>\addtocounter</code>.
+
+</p>
+<p>
+The extension does <em>not</em> implement the 
+<code>\fnsymbol</code> or <code>\usecounter</code> macros,
+which only make sense in the context of LaTeX features which
+MathJax does not support.  Similarly, the extension does not
+implement the standard LaTeX counters, such as <code>page</code>,
+<code>section</code>, <code>figure</code>, and <code>enumi</code>.
+
+</p>
+<h3>History</h3>
+<ul>
+<li><em>20 Nov 2011 -- Tom Leathrum</em></li>
+</ul>
+
