@@ -22,7 +22,7 @@ Implements LaTeX counters for MathJax.
     \Roman{name}
     \value{name}
 
-See [sample](https://raw.github.com/leathrum/mathjax-ext-contrib/master/counters/sample.html)
+See [sample](http://github.com/leathrum/mathjax-ext-contrib/master/counters/sample.html)
 
 The `\value` macro is only valid in the number argument for `\setcounter` and 
 `\addtocounter`.
