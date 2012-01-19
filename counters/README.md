@@ -22,6 +22,8 @@ Implements LaTeX counters for MathJax.
     \Roman{name}
     \value{name}
 
+See [sample](sample.html)
+
 The `\value` macro is only valid in the number argument for `\setcounter` and 
 `\addtocounter`.
 
