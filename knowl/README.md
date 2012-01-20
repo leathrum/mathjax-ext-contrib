@@ -26,7 +26,6 @@ See [sample]()
 # History:
 
 *18 Nov 2011* -- Davide Cervone
-
 All code moved to extension, only control sequence implemented is \knowl macro.
 
 *18 Nov 2011* -- Tom Leathrum
