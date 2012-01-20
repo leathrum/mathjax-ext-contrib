@@ -25,6 +25,8 @@ See [sample]()
 
 # History:
 
+*20 Jan 2012* -- Tom Leathrum  
+Moved to GitHub repo, further history tracking there
 *18 Nov 2011* -- Davide Cervone  
 All code moved to extension, only control sequence implemented is \knowl macro.  
 *18 Nov 2011* -- Tom Leathrum  
