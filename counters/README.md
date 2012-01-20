@@ -32,6 +32,6 @@ The extension does not implement the `\fnsymbol` or `\usecounter` macros, which 
 #History
 
 *20 Jan 2012* -- Tom Leatrum  
-Moved to GitHub repo, further history tracking there
+Moved to GitHub repo, further history tracking there  
 *20 Nov 2011* -- Tom Leathrum
 
