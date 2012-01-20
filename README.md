@@ -3,3 +3,18 @@
 Each directory listed contains a [MathJax](http://www.mathjax.org) extension which can be used in a document with the MathJax CDN configuration.
 
 A typical configuration using one of these extensions will include the following within the `<head>...</head>` portion of your HTML document:
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: {
+        extensions: ["https://raw.github.com/leathrum/mathjax-ext-contrib/master/extname/extname.js"] 
+      }
+    });
+    </script>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+Some extensions may require additional configuration -- for details, see the "about" link below for the extension.
+
+The extensions can also be downloaded and stored for local use -- just be sure to change the URL in the `loadComplete()` call at the end of the extension JavaScript file, and the URL in the MathJax configuration. 
