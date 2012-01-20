@@ -15,6 +15,6 @@ A typical configuration using one of these extensions will include the following
       src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
 
-Some extensions may require additional configuration -- for details, see the "about" link below for the extension.
+Some extensions may require additional configuration -- for details, see the `README` in the directory for the extension.
 
 The extensions can also be downloaded and stored for local use -- just be sure to change the URL in the `loadComplete()` call at the end of the extension JavaScript file, and the URL in the MathJax configuration. 
