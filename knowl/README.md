@@ -21,7 +21,7 @@ Also requires `knowl.js` script and stylesheet from AIM, and jQuery library:
 
     \knowl{url}{math}
 
-See [sample]()
+See [sample](http://leathrum.github.com/mathjax-ext-contrib/knowl/sample.html)
 
 # History:
 
