@@ -26,10 +26,15 @@ See [sample]()
 # History:
 
 *18 Nov 2011* -- Davide Cervone
+
 All code moved to extension, only control sequence implemented is \knowl macro.
+
 *18 Nov 2011* -- Tom Leathrum
+
 Unique-ID mechanism implemented using nonstandard helper control sequences in an extension.
+
 *17 Nov 2011* -- Tom Leathrum
+
 Initial implementation as MathJax macro without an extension, lacked unique-ID mechanism.
 
 See [MathJax User Group discussion](http://groups.google.com/group/mathjax-users/browse_thread/thread/d8a8d081b8e63242) that led to this extension. 
