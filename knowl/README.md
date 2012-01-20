@@ -6,7 +6,7 @@ Implements "knowls" for MathJax. See [AIM documentation](http://www.aimath.org/k
 
     MathJax.Hub.Config({
       TeX: {
-        extensions: ["http://cs.jsu.edu/mathjax-ext/contrib/knowl/knowljax.js"]
+        extensions: ["https://raw.github.com/leathrum/mathjax-ext-contrib/master/knowl/knowl.js"]
       }
     });
 
