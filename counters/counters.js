@@ -1,6 +1,6 @@
 /****************************************************
  *
- *  counters.js ()
+ *  counters.js
  *  
  *  Implements LaTeX counters and related macros for MathJax.
  * 
