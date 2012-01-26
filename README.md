@@ -29,7 +29,7 @@ Developers are welcome to place their extensions here, but please observe the fo
 
 1)  Directory and file naming:  Place extension in a separate directory, `extname`, and place the main JavaScript file for the extension, `extname.js`, in that directory.
 
-2)  README:  Please include a README.md file in the `extname` directory with configuration and usage documentation -- see the existing extensions for examples.
+2)  README:  Please include a `README.md` file in the `extname` directory with configuration and usage documentation -- see the existing extensions for examples.
 
 3)  URLs:  For testing purposes, a `raw.github.com` URL is acceptable on a temporary basis, but before you push your commit to the master branch, please change the URL to  `http://cs.jsu.edu/mathjax-ext/github/extname/extname.js`.
 
