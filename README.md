@@ -7,7 +7,7 @@ A typical configuration using one of these extensions will include the following
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       TeX: {
-        extensions: ["https://raw.github.com/leathrum/mathjax-ext-contrib/master/extname/extname.js"] 
+        extensions: ["http://cs.jsu.edu//mathjax-ext/github/extname/extname.js"] 
       }
     });
     </script>
