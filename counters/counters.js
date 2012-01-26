@@ -205,5 +205,5 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   
 }));
 
-MathJax.Ajax.loadComplete("https://cs.jsu.edu/mathjax-ext/github/counters/counters.js");
+MathJax.Ajax.loadComplete("http://cs.jsu.edu/mathjax-ext/github/counters/counters.js");
 
