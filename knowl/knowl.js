@@ -94,6 +94,6 @@ MathJax.Callback.Queue(
   ["Post",MathJax.Hub.Startup.signal,"TeX knowl ready"]
 );
 
-MathJax.Ajax.loadComplete("https://raw.github.com/leathrum/mathjax-ext-contrib/master/knowl/knowl.js");
+MathJax.Ajax.loadComplete("https://cs.jsu.edu/mathjax-ext/github/knowl/knowl.js");
 
 
