@@ -7,13 +7,15 @@ A typical configuration using one of these extensions will include the following
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       TeX: {
-        extensions: ["http://cs.jsu.edu//mathjax-ext/github/extname/extname.js"] 
+        extensions: ["http://cs.jsu.edu/mathjax-ext/github/extname/extname.js"] 
       }
     });
     </script>
     <script type="text/javascript"
       src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
+    
+Please note the extension URL:  this is *not* on GitHub, but is updated nightly from the GitHub master branch. 
 
 Some extensions may require additional configuration -- for details, see the `README` in the directory for the extension.
 
