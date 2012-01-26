@@ -23,3 +23,14 @@ The extensions can also be downloaded and stored for local use -- just be sure t
 
 Each extension also has a sample page, which can be found in the `gh-pages` branch.
 
+# For Extension Developers
+
+Developers are welcome to place their extensions here, but please observe the following guidelines:
+
+1)  Directory and file naming:  Place extension in a separate directory, `extname`, and place the main JavaScript file for the extension, `extname.js`, in that directory.
+
+2)  README:  Please include a README.md file in the `extname` directory with configuration and usage documentation -- see the existing extensions for examples.
+
+3)  URLs:  For testing purposes, a `raw.github.com` URL is acceptable on a temporary basis, but before you push your commit to the master branch, please change the URL to  `http://cs.jsu.edu/mathjax-ext/github/extname/extname.js`.
+
+Please note that your files will *not* be available immediately on the `cs.jsu.edu` URL -- this site is updated nightly from the master branch here.
