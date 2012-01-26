@@ -6,7 +6,7 @@ Implements LaTeX counters for MathJax.
 
     MathJax.Hub.Config({
       TeX: {
-        extensions: ["https://raw.github.com/leathrum/mathjax-ext-contrib/master/counters/counters.js"]
+        extensions: ["https://cs.jsu.edu/mathjax-ext/github/counters/counters.js"]
       }
     });
 
