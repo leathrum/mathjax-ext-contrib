@@ -25,7 +25,7 @@ Each extension also has a sample page, which can be found in the `gh-pages` bran
 
 # For Extension Developers
 
-Developers are welcome to place their extensions here, but please observe the following guidelines:
+Developers are welcome to place their extensions here (by issuing a pull request), but please observe the following guidelines:
 
 1)  Directory and file naming:  Place extension in a separate directory, `extname`, and place the main JavaScript file for the extension, `extname.js`, in that directory (replace `extname` with the name of your extension).
 
