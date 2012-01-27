@@ -35,4 +35,6 @@ Developers are welcome to place their extensions here (by issuing a pull request
 
 4)  URLs:  For testing purposes, a `raw.github.com` URL is acceptable on a temporary basis, but before you make your pull request to merge into the master branch, please change the URL to  `http://cs.jsu.edu/mathjax-ext/github/extname/extname.js` in the `loadComplete()` call at the end of `extname.js` and in the configuration block of your sample.
 
+5)  MathJax CDN:  Please test your extension against the [MathJax CDN](http://www.mathjax.org/docs/1.1/start.html) as shown in the configuration above, and set up your sample file to use the CDN.
+
 Please note that your files will *not* be available immediately on the `cs.jsu.edu` URL -- this site is updated nightly from the master branch here.  Also please note that the sample file `sample.html` in the `gh-pages` branch is not transfered to the `cs.jsu.edu` site -- the URL for the sample will be `http://leathrum.github.com/mathjax-ext-contrib/extname/sample.html`.
