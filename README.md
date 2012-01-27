@@ -33,6 +33,6 @@ Developers are welcome to place their extensions here, but please observe the fo
 
 3)  Sample:  Please include a sample file `sample.html` in the `extname` directory in the `gh-pages` branch, with a sample demonstrating configuration and usage of your extension, and link to the sample in your `README.md` file.
 
-4)  URLs:  For testing purposes, a `raw.github.com` URL is acceptable on a temporary basis, but before you push your commit to the master branch, please change the URL to  `http://cs.jsu.edu/mathjax-ext/github/extname/extname.js` in the `loadComplete()` call at the end of `extname.js` and in the configuration block of your sample.
+4)  URLs:  For testing purposes, a `raw.github.com` URL is acceptable on a temporary basis, but before you make your pull request to merge into the master branch, please change the URL to  `http://cs.jsu.edu/mathjax-ext/github/extname/extname.js` in the `loadComplete()` call at the end of `extname.js` and in the configuration block of your sample.
 
 Please note that your files will *not* be available immediately on the `cs.jsu.edu` URL -- this site is updated nightly from the master branch here.  Also please note that the sample file `sample.html` in the `gh-pages` branch is not transfered to the `cs.jsu.edu` site -- the URL for the sample will be `http://leathrum.github.com/mathjax-ext-contrib/extname/sample.html`.
