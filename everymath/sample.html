@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add \everymath to MathJax</title>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { 
+    extensions: ["http://cs.jsu.edu/mathjax-ext/github/everymath/everymath.js"],
+    everymath: "\\text{[math]}" 
+  }
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+
+<p>
+Original everymath: \(x+1\)
+<p>
+Changing everymath: \(\everymath{ABC}\)\(x+1\) (note that the first 
+expression in this paragraph has the original \everymath, and the second 
+has the new one, so you see both the original and new ones here).
+
+</body>
+</html>
