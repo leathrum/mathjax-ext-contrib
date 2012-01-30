@@ -15,7 +15,7 @@ with `\FormInput` macro.
 
     \FormInput[size][class][value]{name}
 
-See [sample](http://leathrum.github.com/mathjax-ext-contrib/knowl/sample.html)
+See [sample](http://leathrum.github.com/mathjax-ext-contrib/forminput/sample.html)
 
 HTML `id` and `name` attributes given by value in required parameter, 
 other attributes given by corresponding optional parameters.
