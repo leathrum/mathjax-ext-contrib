@@ -22,7 +22,7 @@ Allows TeX preamble section in MathJax configuration.
     });
     </script>
 
-See [sample](http://leathrum.github.com/mathjax-ext-contrib/knowl/sample.html).
+See [sample](http://leathrum.github.com/mathjax-ext-contrib/preamble/sample.html).
 
 The `preamble` option accepts a comma-separated list
 of strings containing TeX definitions or similar code. 
