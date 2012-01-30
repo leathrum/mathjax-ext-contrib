@@ -1,0 +1,41 @@
+<html>
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    extensions: ["http://cs.jsu.edu/mathjax-ext/github/toggles/toggles.js"]
+  }
+});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript">
+// check = false;
+function doclick() {
+  document.getElementById("switchelt").innerHTML =
+    (document.getElementById("switchelt").innerHTML.indexOf("false")>0 ? 
+      "\\(\\toggletrue{testtwo}\\)" :
+      "\\(\\togglefalse{testtwo}\\)" );
+  MathJax.Hub.Queue(["Typeset",MathJax.Hub,"switchelt"]);
+  MathJax.Hub.Queue(["Reprocess",MathJax.Hub,"content"]);
+}
+</script>
+</head>
+<body>
+\[
+\newtoggle{test}
+\toggletrue{test}
+\iftoggle{test}{\sin(x)}{\cos(x)}
+\neq
+\togglefalse{test}
+\iftoggle{test}{\sin(x)}{\cos(x)}
+\]
+<br/>
+\(\newtoggle{testtwo}\)
+<span id="switchelt">\(\togglefalse{testtwo}\)</span>
+Dynamic:
+<button onclick="doclick()">Click here</button>
+<span id="content">\(\iftoggle{testtwo}{\sin(x)}{\cos(x)}\)</span>
+</body>
+</html>
