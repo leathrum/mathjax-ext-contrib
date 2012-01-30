@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Process a TeX preamble string</title>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    extensions: ["http://cs.jsu.edu/mathjax-ext/github/preamble/preamble.js"]
+  }
+});
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    preamble: [
+      "\\def\\RR{\\mathbf{R}}",
+      "\\def\\CC{\\mathbf{C}}",
+      "\\def\\vector#1{\\left<#1\\right>}"
+    ]
+  }
+});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+
+<p>
+Use of predefined macros: \(f\colon\RR\to\CC\) and 
+\(\vector{1,2,3}\).
+</p>
+
+</body>
+</html>
