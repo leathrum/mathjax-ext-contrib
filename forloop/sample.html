@@ -1,0 +1,30 @@
+<html>
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    extensions: ["http://cs.jsu.edu/mathjax-ext/github/forloop/forloop.js"]
+  }
+});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>
+\[
+\newcounter{test}
+\forloop[2]{1}{10}{test}{\arabic{test}\quad}
+\]
+\[
+\newcounter{ict}
+\newcounter{jct}
+\left[
+\ForArray{1}{4}{ict}{
+\ForArray{1}{4}{jct}{
+a_{\arabic{ict},\arabic{jct}} 
+}}
+\right]
+\]
+</body>
+</html>
