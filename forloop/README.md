@@ -40,4 +40,5 @@ method call at the beginning of this extension script.
 # History:
 
 *2 Feb 2012* -- Tom Leathrum  
+Initial upload to GitHub -- further history maintained there
 
