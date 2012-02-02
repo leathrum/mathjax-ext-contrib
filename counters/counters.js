@@ -40,7 +40,7 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   TEXDEF.macros.roman = 'ROMAN_counters';
   TEXDEF.macros.Roman = 'CAP_ROMAN_counters';
   
-  var counterarray = [];
+  counterarray = [];
   var dependencyarray = [];
 
   TEX.Parse.Augment({
