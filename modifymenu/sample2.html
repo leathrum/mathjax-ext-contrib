@@ -1,0 +1,33 @@
+<html>
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["http://cs.jsu.edu/mathjax-ext/github/modifymenu/modifymenu.js"]
+});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/2.0-beta/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript">
+MathJax.Hub.Queue(function(){
+MathJax.Menu.menu.addItemAfterByName(
+        MathJax.Menu.ITEM.COMMAND("get image",
+            function(){window.open("http://cs.jsu.edu/cgi-bin/mathtex.cgi?"+MathJax.Menu.jax.originalText);}),
+        "Show Math As");
+});
+</script>
+</head>
+<body>
+This sample loads MathJax version 2.0 beta from the CDN, 
+and makes menu modifications
+specific to its contextual menu.  Look for the item "get image" after
+the "Show Math As" submenu item.
+\[
+\int_{-\infty}^{\infty} e^{-x^2}\, dx=\sqrt{\pi}
+\]
+<em>Note:</em>  This sample uses an installation of 
+<a href="http://www.forkosh.com/mathtex.html">John Forkosh's mathTeX</a>
+on the server <code>cs.jsu.edu</code> to generate a GIF image of the LaTeX expression.  When you select "get image", the image generated appears in a
+new browser tab.
+</body>
+</html>
