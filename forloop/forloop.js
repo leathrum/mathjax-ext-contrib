@@ -25,7 +25,8 @@ MathJax.Hub.Register.StartupHook("TeX counters Ready",function () {
       var step = 1;
   
       // may need to revisit this in MJv2.0 with new GetBrackets()
-      if (stepstr !== "") step = parseInt(stepstr);
+      // fixed by adding "stepstr &&" below, compatible with v1.1
+      if (stepstr && stepstr !== "") step = parseInt(stepstr);
       for (var i = start; 
            i <= stop;
            i += step) {

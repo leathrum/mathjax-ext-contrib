@@ -43,6 +43,7 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
           val = this.GetBrackets(name),
           id = this.GetArgument(name);
       if (size == null || size === "") {size = "2"}
+      if (val == null) {val = ""}
       cls = ("MathJax_Input "+(cls||"")).replace(/ +$/,"");
       var input = HTML.Element("input",{type:"text", name:id, id:id, size:size, className:cls, value:val});
       input.setAttribute("xmlns","http://www.w3.org/1999/xhtml");
