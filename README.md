@@ -25,10 +25,9 @@ Each extension also has a sample page, which can be found in the `gh-pages` bran
 
 ### Notes for MathJax version 2.0
 
-All extensions have been tested with MathJax version 2.0 beta.  The `\ForArray` macro in the `forloop` extension does
-not work correctly yet, but other than that, all extensions work correctly in the new version.
-This did require a minor bug fix in the `forminput` extension (the correction does not affect its function
-in MathJax version 1.1).
+All extensions have been tested with MathJax version 2.0 beta.  
+This did require a minor bug fixes in the `forminput` and `forloop` extensions (the corrections do not affect 
+function in MathJax version 1.1).
 
 # For Extension Developers
 
