@@ -37,6 +37,12 @@ extension, you will need to decide also whether to use a local copy of
 the `counters` extension, and if so, change the URL in the `Require()`
 method call at the beginning of this extension script.
 
+### MathJax version 2.0 notes
+
+This extension has been tested against MathJax version 2.0 beta, and the `\ForArray` macro does not work
+with that version of MathJax.  The `\forloop` macro does work, but it still does not work in arrays.
+The developer of this extension is working on a fix for this problem -- contributions are welcome.
+
 # History:
 
 *2 Feb 2012* -- Tom Leathrum  
