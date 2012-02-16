@@ -1,6 +1,6 @@
 # Extension: modifymenu
 
-Augments the `MathMenu` object with utility methods for manipulating and 
+Augments the `MathJax.Menu` object with utility methods for manipulating and 
 modifying the MathJax contextual menu.
 
 # Configuration:
