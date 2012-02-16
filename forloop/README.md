@@ -39,9 +39,8 @@ method call at the beginning of this extension script.
 
 ### MathJax version 2.0 notes
 
-This extension has been tested against MathJax version 2.0 beta, and the `\ForArray` macro does not work
-with that version of MathJax.  The `\forloop` macro does work, but it still does not work in arrays.
-The developer of this extension is working on a fix for this problem -- contributions are welcome.
+This extension has been tested against MathJax version 2.0 beta.  (The earlier problem with the `\ForArray` macro
+has been fixed.)
 
 # History:
 
