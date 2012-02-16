@@ -88,7 +88,7 @@ MathJax.Menu.Augment({
 
   disableItemByName: function(name) {
     this.disableItem(this.getItemByName(name));
-  }
+  },
 
   enableItemAtIndex: function(index) {
     this.items[index].disabled=false;
