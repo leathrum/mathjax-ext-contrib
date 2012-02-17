@@ -45,7 +45,8 @@ MathJax.Hub.Register.StartupHook("TeX counters Ready",function () {
       row = []; 
   
       // may need to revisit this in MJv2.0 with new GetBrackets()
-      if (stepstr !== "") step = parseInt(stepstr);
+      // "stepstr &&" here, too
+      if (stepstr && stepstr !== "") step = parseInt(stepstr);
       forarraydepth++;
       for (var i = start; 
            i <= stop;
