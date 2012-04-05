@@ -22,7 +22,7 @@ File `menudata.json`:
         "Original Menu Item Label Text" : "Replacement Text", ...
     }
 
-See [sample](http://leathrum.github.com/mathjax-ext-contrib/menu-i18n/sample.html)
+See [sample](http://leathrum.github.com/mathjax-ext-contrib/menu-i18n/menutest.html)
 
 # History:
 
