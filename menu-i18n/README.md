@@ -3,6 +3,8 @@
 Provides facilities for internationalization of the MathJax contextual menu,
 with string substitution data specified in a JSON file.
 
+This extension is VERY EXPERIMENTAL -- use with EXTREME caution.
+
 # Configuration:
 
     MathJax.Hub.Config({
@@ -14,7 +16,11 @@ with string substitution data specified in a JSON file.
 
 # Usage:
 
-    
+File `menudata.json`:
+
+    {
+        "Original Menu Item Label Text" : "Replacement Text", ...
+    }
 
 See [sample](http://leathrum.github.com/mathjax-ext-contrib/menu-i18n/sample.html)
 

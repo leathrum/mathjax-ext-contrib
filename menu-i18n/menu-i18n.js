@@ -83,5 +83,5 @@ ITEM.LABEL.Augment({
 
 }));
 
-MathJax.Ajax.loadComplete("http://localhost/moth/ext-test/menu-i18n/menu-i18n.js");
+MathJax.Ajax.loadComplete("http://cs.jsu.edu/mathjax-ext/github/menu-i18n/menu-i18n.js");
 
