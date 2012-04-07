@@ -62,7 +62,7 @@ var queue = MathJax.Callback.Queue();
 if (CONFIG.menuTranslationFile)  
     {queue.Push(["Require",MathJax.Ajax,CONFIG.menuTranslationFile])};
 
-return queue.push(["Post",MathJax.Hub.Startup.signal,
+return queue.Push(["Post",MathJax.Hub.Startup.signal,
                "MathMenu i18n Ready"]);
 
 });
