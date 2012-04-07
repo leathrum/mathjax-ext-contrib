@@ -31,10 +31,7 @@ File `menudata.js`:
 
 See [sample](http://leathrum.github.com/mathjax-ext-contrib/menu-i18n/menutest.html)
 
-This extension has been tested with MathJax version 2.0 on the CDN.
-The implementation should allow it to work with version 1.1 also, but this
-has not been tested, and many of the original menu label strings are 
-different between the versions, so results may not be the same.
+This extension has been tested with MathJax versions 1.1 and 2.0 on the CDN.
 
 # History:
 
