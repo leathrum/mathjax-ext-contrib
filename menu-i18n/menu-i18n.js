@@ -1,7 +1,6 @@
 MathJax.Hub.Register.StartupHook("MathMenu Ready",function () {
 
-var MENU = MathJax.Menu;
-var ITEM = MENU.ITEM;
+var ITEM = MathJax.Menu.ITEM;
 var HUB = MathJax.Hub;
 var CONFIG = HUB.config.MathMenu;
 
@@ -58,13 +57,13 @@ ITEM.LABEL.Augment({
       }
 });
 
-if (CONFIG.menuTranslationFile) {
-  MathJax.Hub.Queue(["Require",MathJax.Ajax,
-                  CONFIG.menuTranslationFile]);
-};
+var queue = MathJax.Callback.Queue();
 
-MathJax.Callback.Queue(["Post",MathJax.Hub.Startup.signal,
-                   "MathMenu i18n Ready"]);
+if (CONFIG.menuTranslationFile)  
+    {queue.Push(["Require",MathJax.Ajax,CONFIG.menuTranslationFile])};
+
+return queue.push(["Post",MathJax.Hub.Startup.signal,
+               "MathMenu i18n Ready"]);
 
 });
 
