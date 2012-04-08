@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    extensions: ["http://cs.jsu.edu/mathjax-ext/github/menu-i18n/menu-i18n.js",
+                 "http://cs.jsu.edu/mathjax-ext/github/modifymenu/modifymenu.js"]
+});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript">
+MathJax.Hub.Queue(function(){
+MathJax.Menu.menu.appendItem(
+    MathJax.Menu.ITEM.SUBMENU("This Text Changes",
+        MathJax.Menu.ITEM.COMMAND("Substitute Text 1",
+            function () {
+                MathJax.Menu.ITEM.prototype.labelTranslations = {
+                    "This Text Changes": "Changed Text 1"
+                }
+            }
+        ),
+        MathJax.Menu.ITEM.COMMAND("Substitute Text 2",
+            function () {
+                MathJax.Menu.ITEM.prototype.labelTranslations = {
+                    "This Text Changes": "Changed Text 2"
+                }
+            }
+        )
+    )
+)
+});
+</script>
+</head>
+<body>
+<p>
+\[
+\int_{-\infty}^\infty e^{-x^2}\, dx=\sqrt{\pi}
+\]
+</p>
+</body>
+</html>
