@@ -29,7 +29,7 @@ File `menudata.js`:
     ; 
     MathJax.Ajax.loadComplete("menudata.js");
 
-See [sample](http://leathrum.github.com/mathjax-ext-contrib/menu-i18n/menutest.html)
+See [sample](http://leathrum.github.com/mathjax-ext-contrib/menu-i18n/sample.html)
 
 This extension has been tested with MathJax versions 1.1 and 2.0 on the CDN.
 
