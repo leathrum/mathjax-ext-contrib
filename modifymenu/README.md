@@ -51,7 +51,7 @@ particular, the variable `MathJax.Menu.menu` stores the current contextual menu
 in a variable of type `MathJax.Menu`, so to modify the current menu, the call
 will take a form similar to:
 
-    MathJax.Menu.menu.append(item)
+    MathJax.Menu.menu.appendItem(item)
 
 The `MathJax.Menu.ITEM` class describes menu items -- subclasses include 
 `COMMAND`, `LABEL`, `RULE`, `SUBMENU`, `CHECKBOX`, and `RADIO`.  So, for 
