@@ -27,6 +27,11 @@ MathJax.Menu.menu.appendItem(
                     "This Text Changes": "Changed Text 2"
                 }
             }
+        ),
+        MathJax.Menu.ITEM.COMMAND("Substitute Text with JS",
+            function () {
+                MathJax.Ajax.Load("menudata.js");
+            }
         )
     )
 )
