@@ -39,7 +39,7 @@ needs its own HTML page with each HTML page loading a different JavaScript file.
 
 The [second sample](http://cs.jsu.edu/mathjax-ext/github/menu-i18n/sample2/sample2.html) uses a server-side PHP script
 to generate the JavaScript dynamically.  In this case, the PHP script wraps the MathJax-required JavaScript header
-and footer lines around a JSON file specified in a URL parameter.  
+and footer lines around a JSON file specified in a URL parameter. 
 A minor hack is needed in this sample:  the `menuTranslationFile` URL in the configuration points to the PHP
 script with the URL parameter, so the URL ends in `&m.js` in order to "trick" MathJax into thinking that this
 is an ordinary JavaScript file of the sort loaded in the first sample.
