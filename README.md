@@ -26,7 +26,7 @@ Each extension also has a sample page, which can be found in the `gh-pages` bran
 ### Notes for MathJax version 2.0
 
 All extensions have been tested with MathJax version 2.0 on the CDN.  
-This did require a minor bug fixes in the `forminput` and `forloop` extensions (the corrections do not affect 
+This did require minor bug fixes in the `forminput` and `forloop` extensions (the corrections do not affect 
 function in MathJax version 1.1).
 
 # For Extension Developers
