@@ -77,7 +77,9 @@ Note that the contextual menu for MathJax version 2.0 is different from the
 contextual menu for MathJax version 1.1 -- some menu items have different
 names and positions, and the overall organization of the menu is different.
 For this reason, this extension needs to be used very carefully when the MathJax
-version being used by readers may not be known.
+version being used by readers may not be known.  The samples use specific versions 
+of MathJax for this reason -- the first sample uses MathJax version 1.1, the second
+sample uses MathJax version 2.0.
 
 # History:
 
