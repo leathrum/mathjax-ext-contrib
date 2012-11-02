@@ -23,6 +23,10 @@ The extensions can also be downloaded and stored for local use -- just be sure t
 
 Each extension also has a sample page, which can be found in the `gh-pages` branch.
 
+### Notes for MathJax version 2.1
+
+All extensions have been tested with MathJax version 2.1 on the CDN.  
+
 ### Notes for MathJax version 2.0
 
 All extensions have been tested with MathJax version 2.0 on the CDN.  
