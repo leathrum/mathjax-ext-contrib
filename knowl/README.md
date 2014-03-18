@@ -5,9 +5,7 @@ Implements "knowls" for MathJax. See [AIM documentation](http://www.aimath.org/k
 # Configuration:
 
     MathJax.Hub.Config({
-      TeX: {
-        extensions: ["http://cs.jsu.edu/mathjax-ext/github/knowl/knowl.js"]
-      }
+      extensions: ["http://cs.jsu.edu/mathjax-ext/github/knowl/knowl.js"]
     });
 
 Also requires `knowl.js` script and stylesheet from AIM, and jQuery library:
@@ -17,14 +15,26 @@ Also requires `knowl.js` script and stylesheet from AIM, and jQuery library:
     <script type="text/javascript" src="http://aimath.org/knowl.js">
     </script>
 
-# Usage:
+# Usage in TeX:
 
     \knowl{url}{math}
 
 See [sample](http://leathrum.github.com/mathjax-ext-contrib/knowl/sample.html)
 
+# Usage in MthML
+
+    <maction actiontype="knowl" data-src="url">...</maction>
+
+Example:
+
+    <maction actiontype="knowl" data-src="http://cs.jsu.edu/~leathrum/knowl/gamma.html">
+      <mi mathvariant="normal">&Gamma;</mi>
+    </maction>
+
 # History:
 
+*18 Mar 2014* -- Davide Cervone
+Added MathML support via maction with actiontype="knowl"
 *20 Jan 2012* -- Tom Leathrum  
 Moved to GitHub repo, further history tracking there  
 *18 Nov 2011* -- Davide Cervone  
