@@ -23,6 +23,12 @@ The extensions can also be downloaded and stored for local use -- just be sure t
 
 Each extension also has a sample page, which can be found in the `gh-pages` branch.
 
+# License
+
+All extensions here are made available as source code, under terms of the Apache license version 2.0 -- see the file `License.txt` listed above for terms and details.  Author attributions and copyright notices are contained in each file.
+
+*If you wish to submit an extension,* the instructions are below, but be aware that your material will be available here under the same terms, i.e. as source code and under the terms of the Apache license version 2.0.  For the purposes of this repository, issuing a pull request constitutes an implicit agreement to having these license terms applied to your materials.
+
 ### Notes for MathJax version 2.1
 
 All extensions have been tested with MathJax version 2.1 on the CDN.  
