@@ -25,7 +25,7 @@ Each extension also has a sample page, which can be found in the `gh-pages` bran
 
 # License
 
-All extensions here are made available as source code, under terms of the Apache license version 2.0 -- see the file `License.txt` listed above for terms and details.  Author attributions and copyright notices are contained in each file or ots associated `README.md` file.  Unless otherwise noted there, copyright remains with the author, with reuse and redistribution only permitted subject to the terms of the licene.
+All extensions here are made available as source code, under terms of the Apache license version 2.0 -- see the file `License.txt` listed above for terms and details.  Author attributions and copyright notices are contained in each file or ots associated `README.md` file.  Unless otherwise noted there, copyright remains with the author, with reuse and redistribution only permitted subject to the terms of the license.
 
 *If you wish to submit an extension,* the instructions are below, but be aware that your material will be available here under the same terms, i.e. as source code and under the terms of the Apache license version 2.0.  For the purposes of this repository, issuing a pull request constitutes an implicit agreement to having these license terms applied to your materials.
 
